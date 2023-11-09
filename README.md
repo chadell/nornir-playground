@@ -26,16 +26,6 @@ The goals of the workshop are:
 - Configure the link between both network devices with network 192.0.2.0/24
 - Check reachability over the link with a ping
 
-## Validate LAB access
-
-Using the IP address and TCP port provisioned, connect to the routers via SSH. These are the credentials to be used in the automation lab.
-
-```bash
-$ ssh admin@165.227.131.20 -p 12001
-```
-
-[Default credentials](https://containerlab.dev/manual/kinds/srl/#managing-sr-linux-nodes): admin:NokiaSrl1!
-
 ## Workshop
 
 ### Getting started with Nornir
@@ -388,4 +378,10 @@ socat TCP-LISTEN:12027,reuseaddr,fork TCP:ceos-27:22 &
 socat TCP-LISTEN:12028,reuseaddr,fork TCP:ceos-28:22 &
 ```
 
-<!-- device = driver(hostname="165.227.150.53",username="admin",password="admin", optional_args={"port":"12001","transport":"ssh"}) -->
+## Validate LAB access
+
+Using the IP address and TCP port provisioned, connect to the routers via SSH. These are the credentials to be used in the automation lab.
+
+```bash
+$ ssh admin@1.2.3.4 -p 12001
+```
