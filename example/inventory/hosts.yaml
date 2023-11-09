@@ -1,0 +1,23 @@
+---
+router1:
+  hostname: "1.2.3.4" # use your IP Address
+  platform: "eos"
+  groups:
+    - "the-lab"
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          port: 12001 # use your Port
+          transport: "ssh"
+router2:
+  hostname: "1.2.3.4" # use your IP Address
+  platform: "eos"
+  groups:
+    - "the-lab"
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          port: 12002 # use your Port
+          transport: "ssh"

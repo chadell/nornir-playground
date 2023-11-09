@@ -1,0 +1,80 @@
+name: lab
+prefix: "" # Empty string to not add a prefix to the containers
+
+topology:
+  kinds:
+    ceos:
+      image: ceos:4.30.1F
+  nodes:
+    ceos-01:
+      kind: ceos
+    ceos-02:
+      kind: ceos
+    ceos-03:
+      kind: ceos
+    ceos-04:
+      kind: ceos
+    ceos-05:
+      kind: ceos
+    ceos-06:
+      kind: ceos
+    ceos-07:
+      kind: ceos
+    ceos-08:
+      kind: ceos
+    ceos-09:
+      kind: ceos
+    ceos-10:
+      kind: ceos
+    ceos-11:
+      kind: ceos
+    ceos-12:
+      kind: ceos
+    ceos-13:
+      kind: ceos
+    ceos-14:
+      kind: ceos
+    ceos-15:
+      kind: ceos
+    ceos-16:
+      kind: ceos
+    ceos-17:
+      kind: ceos
+    ceos-18:
+      kind: ceos
+    ceos-19:
+      kind: ceos
+    ceos-20:
+      kind: ceos
+    ceos-21:
+      kind: ceos
+    ceos-22:
+      kind: ceos
+    ceos-23:
+      kind: ceos
+    ceos-24:
+      kind: ceos
+    ceos-25:
+      kind: ceos
+    ceos-26:
+      kind: ceos
+    ceos-27:
+      kind: ceos
+    ceos-28:
+      kind: ceos
+
+  links:
+    - endpoints: ["ceos-01:eth1", "ceos-02:eth1"]
+    - endpoints: ["ceos-03:eth1", "ceos-04:eth1"]
+    - endpoints: ["ceos-05:eth1", "ceos-06:eth1"]
+    - endpoints: ["ceos-07:eth1", "ceos-08:eth1"]
+    - endpoints: ["ceos-09:eth1", "ceos-10:eth1"]
+    - endpoints: ["ceos-11:eth1", "ceos-12:eth1"]
+    - endpoints: ["ceos-13:eth1", "ceos-14:eth1"]
+    - endpoints: ["ceos-15:eth1", "ceos-16:eth1"]
+    - endpoints: ["ceos-17:eth1", "ceos-18:eth1"]
+    - endpoints: ["ceos-19:eth1", "ceos-20:eth1"]
+    - endpoints: ["ceos-21:eth1", "ceos-22:eth1"]
+    - endpoints: ["ceos-23:eth1", "ceos-24:eth1"]
+    - endpoints: ["ceos-25:eth1", "ceos-26:eth1"]
+    - endpoints: ["ceos-27:eth1", "ceos-28:eth1"]
