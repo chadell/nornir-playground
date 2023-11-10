@@ -30,6 +30,6 @@ for ip_address in IP_ADDRESSES:
             port_1=base_port,
             port_2=base_port + 1,
         )
-    user_number += 1
+        user_number += 1
 
 print(final_text)
