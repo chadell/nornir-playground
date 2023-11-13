@@ -22,7 +22,7 @@ Containerized Arista EOS Operating System using [Containerlab](https://container
 
 ```mermaid
 graph TD;
-    Router1<--Ethernet1(192.0.2.1)/Ethernet1(192.0.2.2)-->Router2;
+    Router1<--Ethernet1/Ethernet1-->Router2;
 ```
 
 The goal of the scenario is to configure the Ethernet interfaces with the corresponding IP addresses.
